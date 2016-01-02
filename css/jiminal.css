@@ -533,11 +533,12 @@ code {
       opacity: 1; }
   .navbar-redwood .navbar-brand {
     color: #3c3c3c;
-    font-weight: 900;
-    font-size: 32px;
-    height: 60px;
+    font-size: 24px;
+    height: 50px;
     padding: 20px 15px;
-    letter-spacing: -.05em; }
+    font-family: 'Lato Light', sans-serif;
+    text-transform: uppercase;
+     }
   .navbar-redwood .navbar-form {
     margin-top: 13px; }
   .navbar-redwood .search {
@@ -638,10 +639,17 @@ img { max-width: 100%; }
 	    width: 100%;
 	    margin: 0 auto;
     }
+    .navbar-brand {
+	    margin-top:-5px;
+    }
 }
 
 .icon-bar {
 	border-bottom: 2px solid black;
+	vertical-align:bottom;
 }
 
+.navbar-toggle {
+	margin-bottom: -5px;
+}
 /*# sourceMappingURL=jiminal.css.map */
